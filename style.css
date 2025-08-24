@@ -3,7 +3,7 @@
     --primary-bg: #0b0a12; /* Sangat gelap, mendekati hitam */
     --secondary-bg: #141126; /* Sedikit lebih terang dari primary */
     --text-color: #ececf2; /* Teks terang */
-    --muted-text: #a3a3b2; /* Teks abu-abu muda */
+    --muted-text: #0b0a12; /* Teks abu-abu muda */
     --brand-purple-dark: #6d28d9; /* Ungu gelap utama */
     --brand-purple-medium: #9333ea; /* Ungu sedang */
     --brand-purple-light: #a855f7; /* Ungu terang */
@@ -312,3 +312,4 @@ footer {
         width: 100%;
     }
 }
+
