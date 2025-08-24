@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cari Data Training</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cari Data Training</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -16,7 +16,7 @@
     <h2><marquee>Sudah ngopi belum, kalau belum....yookk kita ngopi ☕</marquee></h2>
 </header>
 
-<div class="controls-container">
+<div style="margin-top: 15px; display:flex; gap:10px; flex-wrap: wrap;">
     <select id="searchType">
         <option value="nik">🔍 Cari ID Number</option>
         <option value="nama">🔍 Cari Nama</option>
@@ -37,23 +37,18 @@
                 <th>Expired Date</th>
             </tr>
         </thead>
-        <tbody>
-            <!-- Data akan diisi oleh JavaScript -->
-        </tbody>
+        <tbody></tbody>
     </table>
 </div>
 
 <div id="totalDurationsContainer"></div>
 
 <footer>
-    <br>© 2025 by <a href="https://irwanss.web.app/" target="_blank" rel="noopener">IrwanS</a>
+    <br>© 2025 by IrwanS
 </footer>
 
-<!-- Floating Buttons -->
 <button class="traktir-floating" onclick="openTraktir()">☕ Traktir Kopi</button>
-<button class="portfolio-floating" onclick="window.open('https://irwanss.web.app/', '_blank')">My Portfolio</button>
 
-<!-- Modals -->
 <div id="traktirModal" class="modal">
     <span class="modal-close" onclick="closeTraktir()">&times;</span>
     <div class="modal-content">
@@ -61,7 +56,7 @@
         dan mau traktir saya secangkir kopi ☕,<br>
         boleh langsung lewat QR di bawah.<br>
         Santai aja, nggak wajib, tapi bikin saya senyum. 😄</p>
-        <div class="qr-codes">
+        <div>
             <div onclick="zoomQR('gopay')"><img src="Gopay.jpeg" alt="Gopay QR"></div>
             <div onclick="zoomQR('dana')"><img src="DANA.jpeg" alt="DANA QR"></div>
             <div onclick="zoomQR('ovo')"><img src="Ovo.jpeg" alt="OVO QR"></div>
